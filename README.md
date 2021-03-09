@@ -21,13 +21,13 @@ _____________________________________________________________________________
 ![image](https://user-images.githubusercontent.com/50255936/110509448-13cb2280-813d-11eb-9de4-070e87ff324d.png)
 __________________________________________________________
 ## Working Procedures
-* Audio Signals with different head postions were recorded using throat mircrophone and labelled them ('asa', 'hiru', 'yoru', 'ichi', 'go' and 'roku' words are recorded)
+* Audio Signals with different head postions were recorded using throat mircrophone and labelled them (Male voices ('asa', 'hiru', 'yoru') and Female voices( 'ichi', 'go', 'roku') are recorded)
 * Pre - processing was performed by re-sampling and normalization
 * Output labels were converted to integer encoded and then these encoded labels are converted to a one - hot vecotor
 * 2D array was reshaped to 3D array before introduced into CNN network
 * The data is split into 80% for training and 20% for validation
 
-### Training Model Architecture
+## Training Model Architecture
 ![image](https://user-images.githubusercontent.com/50255936/110511002-bcc64d00-813e-11eb-811b-13c7d80a49bb.png)
 
 * Convolutional 1D was used to build both the speech recognition model and head postion classification model
@@ -39,3 +39,17 @@ __________________________________________________________
 * Adam optimizer is used.
 * For the wave files with the male voice, the model is trained on a batch size of 32 while for the wave files with the female voice, the model is trained on a batch size of 8.
 * After the speech recognition model and head position model are trained, the best models were saved and used in prediction.
+
+## Validation Results
+### Speech Recognition of ('asa', 'hiru', 'yoru')
+![image](https://user-images.githubusercontent.com/50255936/110512552-4296c800-8140-11eb-9831-d66c61913b70.png)
+### Head Position Classification ('asa','hiru','yoru')
+![image](https://user-images.githubusercontent.com/50255936/110512608-517d7a80-8140-11eb-9c15-4920972d5429.png)
+
+
+## Real Time Recognition Accuracy ('asa','hiru','yoru')
+![image](https://user-images.githubusercontent.com/50255936/110513014-b8029880-8140-11eb-92f1-d9aac89ea026.png)
+
+
+
+
