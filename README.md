@@ -7,6 +7,7 @@ ___________________________________________________
 * Both speech recognition and head postion classification are performed by using the vibration of speech signals recorded by Throat Microphone
 * CNN is used for classification
 * Python 3.6 and Tensorflow 2
+* Programming Language - Python
 ___________________________________________________________
 ## Environment Setup
 * PyCharm Community Edition
