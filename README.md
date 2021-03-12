@@ -1,4 +1,4 @@
-# Head-Pose-Classification-and-Isolated-Word-Recognition-with-Vibration-of-Vocal-Folds-while-Talking
+# Head Pose Classification and Isolated Word Recognition with Vibration of Vocal Folds while Talking
 ___________________________________________________
 ## Project Overview
 * Accumulated audio voices of Isolated Japanese words and head positions from both male and female using Throat microphone
