@@ -2,9 +2,9 @@
 ___________________________________________________
 ## Project Overview
 * Accumulated audio voices of Isolated Japanese words and head positions from both male and female using Throat microphone
-* Labelled the audio with head postions
+* Labelled the audio with head positions
 * Performed Resampling and normalization as a preprocessing
-* Both speech recognition and head postion classification are performed by using the vibration of speech signals recorded by Throat Microphone
+* Both speech recognition and head positions classification are performed by using the vibration of speech signals recorded by Throat Microphone
 * CNN is used for classification
 * Python 3.6 and Tensorflow 2
 * Programming Language - Python
